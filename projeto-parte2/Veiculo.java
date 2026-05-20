@@ -21,7 +21,8 @@ public abstract class Veiculo{
             }
         }
         public void imprimirDados(){
-            System.out.printf("Veiculo:\n%b\n%s\n%s\n%.2f\n", this.disponivel, this.modelo, this.placa, this.precoPorViagem);
+            System.out.printf("Veiculo:\nDisponibilidade: %b\nModelo: %s\nPlaca: %s\nPreço: %.2f\n", this.disponivel, this.modelo, this.placa, this.precoPorViagem);
+            System.out.print("\nDados do motorista");
             this.motorista.imprimirDados();
         }
 

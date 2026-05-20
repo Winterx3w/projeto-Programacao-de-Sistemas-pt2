@@ -10,6 +10,7 @@ public class ReservarViagem {
         this.passageiro = p;
         this.veiculo = v;
         this.data = data;
+        this.destino = destino;
         System.out.print("RESERVA DE VIAGEM\n");
         System.out.println("Passageiro: " + this.passageiro.nome);
         System.out.println("Veiculo: " + this.veiculo.modelo);
